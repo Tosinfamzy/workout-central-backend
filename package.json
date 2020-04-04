@@ -4,6 +4,7 @@
     "description": "",
     "author": "",
     "license": "MIT",
+    "engines": { "node": "11.5" },
     "scripts": {
         "prebuild": "rimraf dist",
         "postinstall": "npm run prestart:prod",
